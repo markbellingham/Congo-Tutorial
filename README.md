@@ -17,7 +17,7 @@ Retrieve a list or previous orders from the database
 
 Admin features - edit / delete album - edit track list
 
-This project was written for a tutorial, which can be found here:
+## Project Tutorial
 
 https://markbellingham.me/wiki/index.php?title=Create_an_object_oriented_dynamic_website_with_Java_and_MySQL
 
