@@ -35,13 +35,13 @@
 						<td class="center">
 							<form action="UpdateOrder?recordingId=${album.recordingId}" method="post">
 								<input name="quantity" type="number" value="${album.quantity}" min="1" max="99" style="width: 3.5em;">
-								<input type="submit" value="Update">
+								<button class="btn btn-update" type="submit">Update</button>
 							</form>
 						</td>
 						<td class="right">£${album.totalPrice}</td>
 						<td class="center">
 							<form action="DeleteFromOrder?recordingId=${album.recordingId}" method="post">
-								<input type="submit" value="Delete">
+								<button class="btn btn-delete" type="submit">Delete</button>
 							</form>
 						</td>
 					</tr>
