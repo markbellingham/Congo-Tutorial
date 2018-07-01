@@ -18,6 +18,6 @@ https://markbellingham.me/Congo/
 
 ![Shopping Basket](/Screenshots/Basket.png "Shopping Basket")
 
-![Order History](/Screenshots/Order-history.png "Order History)
+![Order History](/Screenshots/Order-history.png "Order History")
 
 ![Admin Controls](/Screenshots/Admin-controls.png "Admin Controls")
