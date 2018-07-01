@@ -4,7 +4,7 @@ A full rewrite of the Congo project using object oriented Java, Servlets, JSP an
 
 This project was written for a tutorial, which can be found here:
 
-https://markbellingham.me/wiki/index.php?title=Create_an_object_oriented_dynamic_website_with_Java_and_MySQL#Admin_Features
+https://markbellingham.me/wiki/index.php?title=Create_an_object_oriented_dynamic_website_with_Java_and_MySQL
 
 A working example of this project can be found here:
 
