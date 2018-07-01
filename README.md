@@ -3,7 +3,7 @@
 A full rewrite of the Congo project using object oriented Java, Servlets, JSP and JSTL, connecting to a MySQL database.
 
 ## Features of the application include:
-Search by category, price, text string. 
+Search by artist, category, price, text string. 
 
 View details of a single album
 
