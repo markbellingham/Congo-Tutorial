@@ -1,0 +1,234 @@
+html, body { height: 100%; }
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+#wrapper {
+	width: 76%;
+	margin-left: auto;
+	margin-right: auto;
+/*	border: 1px solid black; */
+	min-height: 100%;
+/*  	height: 100%;  */
+	background-color: rgb(245,245,245);
+	top: 0;
+	bottom: 0;
+}
+
+#logo {
+	float: right;
+ 	margin-right: 20px;
+    display: inline-block;
+}
+
+#name {
+/*	border: 1px solid black; */
+	float: left;
+	margin-left: 10%;
+	font-family: Helvetica, Arial, "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	font-size: xx-large;
+	color: #0b5000;
+	text-shadow: 3px 3px #A8A8A8;
+	display: inline-block;
+}
+
+@media (min-width: 0px) and (max-width: 1050px) {
+  #wrapper {
+    min-width: 0px;
+    width: 100%;
+  }
+  #logo { margin-left: 5px; }
+}
+@media (min-width: 0px) and (max-width: 820px) {
+	#logo { 
+	   float: left;
+	   margin-left: auto;
+	   margin-right: auto;
+	}
+    #name { 
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+nav {
+/* 	border: 1px solid black; */
+	clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+nav a {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#page_title { color: #0b5000; }
+
+body {
+	clear: both;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 30px;
+}
+
+#login {
+	float: left;
+	margin-right: 100px;
+}
+#register { float: left; }
+
+.indent { margin-left: 10%; }
+
+#album-container h2 { margin-left: 0; }
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
+}
+.musicList {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.musicList td, .musicList th {
+    font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+.musicList th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+.musicList tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+#album-container {
+	width: 80%;
+	margin-left: 10%;
+/* 	border: 1px solid black; */
+}
+#album-cover {
+/* 	border: 1px solid black; */
+	float: left;
+	display: inline-block;
+}
+#album-tracks {
+/* 	border: 1px solid black; */
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+@media (min-width: 0px) and (max-width: 1050px) {
+    #album-tracks {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+a.th {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#grandTotal {
+	text-align: right;
+	font-weight: bold;
+	border: none;
+}
+
+/*
+* Login/Register page styles
+*/
+
+/* Container for the main divs */
+#login-register-container {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#login, #register {
+	width: 100%;
+}
+#login td, #register td {
+	padding: 5px;
+	color: white;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+
+/* Change background colour of login/register buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+}
+
+/* Style each tab content individually */
+#login {background-color:#0b5000;}
+#register {background-color:#777;}
+
+#checkout {
+	display: block;
+	width: 150px;
+	height: 35px;
+	background-color: #0b5000;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	float: right;
+	margin-right: 10%;
+	margin-bottom: 20px;
+}
+#customer-address {
+	float: left;
+	margin-left: 10%;
+}
+#customer-contact-details {
+	float: left;
+	margin-left: 80px;
+}
+
+.admin-edit { max-width: 170px; }
+.small-td { width: 80px; }
+.btn {
+	color: white;
+	margin: 2px;
+	text-decoration: none;
+	border: none;
+	padding: 6px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.btn-insert { background-color: green; }
+.btn-select { background-color: blue; }
+.btn-update { background-color: orange; }
+.btn-delete { background-color: red; }
+.btn-clear { background-color: grey; }
