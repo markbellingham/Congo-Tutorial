@@ -10,3 +10,14 @@ A working example of this project can be found here:
 
 https://markbellingham.me/Congo/
 
+## Screenshots
+
+![Search by category](/Screenshots/Categories-jsp.png "Search by category")
+
+![Single Album](/Screenshots/Album-jsp.png "Single Album")
+
+![Shopping Basket](/Screenshots/Basket.png "Shopping Basket")
+
+![Order History](/Screenshots/Order-history.png "Order History)
+
+![Admin Controls](/Screenshots/Admin-controls.png "Admin Controls")
