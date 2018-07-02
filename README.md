@@ -13,7 +13,7 @@ Add items to a shoppping basket and edit quantities / delete from basket
 
 Submit order to the database
 
-Retrieve a list or previous orders from the database
+Retrieve a list of previous orders from the database
 
 Admin features - edit / delete album - edit track list
 
