@@ -27,16 +27,23 @@ https://markbellingham.me/Congo/
 
 ## Screenshots
 
+Search by category
 ![Search by category](/Screenshots/search-by-category.png "Search by category")
 
+Search by keyword
 ![Search by keyword](/Screenshots/search-by-keyword.png "Search by keyword")
 
+Single album view
 ![Single Album View](/Screenshots/single-album-view.png "Single Album")
 
+Login / register screen
 ![Login / Register](/Screenshots/login-register.png "Login / Register")
 
+Shopping basket
 ![Shopping Basket](/Screenshots/shopping-basket.png "Shopping Basket")
 
+Order history
 ![Order History](/Screenshots/order-history.png "Order History")
 
+Admin controls
 ![Admin Controls](/Screenshots/admin-controls.png "Admin Controls")
