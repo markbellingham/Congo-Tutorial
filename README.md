@@ -1,6 +1,6 @@
 # Congo Tutorial
 
-A full rewrite of the Congo project using object oriented Java, Servlets, JSP and JSTL, connecting to a MySQL database.
+A full rewrite of the Congo project using object oriented Java, Servlets, JSP (Java Server Pages) and JSTL (Java Standard Tag Library), connecting to a MySQL database. The project is to build a full stack application for an online shop, taking information from the database and displaying it in a browser using pre-set queries. 
 
 ## Features of the application include:
 Search by artist, category, price, text string. 
