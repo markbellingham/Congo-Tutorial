@@ -6,6 +6,15 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/congo.css"/>
     <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/sorttable.js"></script>
+    
+  <!-- Google Analytics -->
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  <script>
+	  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	  ga('create', 'UA-115626803-1', 'auto');
+	  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
 </head>
 <div id="wrapper">
 		<c:choose>
