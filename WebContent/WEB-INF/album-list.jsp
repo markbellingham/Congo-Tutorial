@@ -40,7 +40,7 @@ $(function() {
 							${album.stockCount}
 						</c:when>
 				   		<c:when test="${(customer.loggedIn != null) && (customer.loggedIn == true) && (album.stockCount > '0')}">
-					    	<button>Add</button>
+					    	<button class="btn btn-insert">Add</button>
 						</c:when>
 						<c:otherwise>
 					    	<button disabled>Add</button>

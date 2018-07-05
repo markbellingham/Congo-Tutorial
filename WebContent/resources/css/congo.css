@@ -60,7 +60,7 @@ nav {
     width: 80%;
     text-align: center;
 }
-nav a {
+nav.a {
 	margin-left: 5px;
 	margin-right: 5px;
 }
@@ -220,12 +220,15 @@ a.th {
 .small-td { width: 80px; }
 .btn {
 	color: white;
-	margin: 2px;
+	margin: 4px;
 	text-decoration: none;
 	border: none;
-	padding: 6px;
+	padding: 4px;
 	border-radius: 5px;
 	display: inline-block;
+	min-width: 70px;
+	height: 25px;
+	text-align: center;
 }
 .btn-insert { background-color: green; }
 .btn-select { background-color: blue; }
