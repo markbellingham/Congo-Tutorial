@@ -21,7 +21,7 @@ Admin features - edit / delete album - edit track list
 
 https://markbellingham.me/wiki/index.php?title=Create_an_object_oriented_dynamic_website_with_Java_and_MySQL
 
-A working demonstration of this project can be found here:
+A working demonstration of this project can be found here, you need to register and/or login to make full use of the application.
 
 https://markbellingham.me/Congo/
 
