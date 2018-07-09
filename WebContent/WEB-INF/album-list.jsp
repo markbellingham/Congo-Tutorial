@@ -1,12 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<script>
-$(function() {
-	('#clear').click(clear);
-});
-</script>
-
 <table class="${customer.admin == 1 ? '' : 'sortable' } musicList">
 	<c:if test="${customer.admin == 1}">
 		<tr>
@@ -19,7 +13,7 @@ $(function() {
 			<td style="border: 0;"><input form="UpdateDB" class="small-td" name="stockCount" type="number" min="0" max="999" placeholder="Stock" value="${empty select.stockCount ? '' : select.stockCount}"/></td>
 			<td style="border: 0;">
 				<button form="UpdateDB" class="btn btn-insert">Add/Update</button>
-				<button id="clear" value="clear" class="btn btn-clear">Clear</button>
+				<button form="UpdateDB" value="clear" class="btn btn-clear" onClick="this.form.reset()">Clear</button>
 			</td>
 		</tr>
 	</c:if>
